@@ -4,6 +4,8 @@ Games name: UmbraKart
 
 when starting up the program the secene your suppose to start at is "Mainmenu"
 
+One of the biggest problems i had was that the car go throw the walls if they were to fast, but with the help of the mentor i found out the problem was that visual studio had its own colloin detector as well as unity so what i did was made a Rigitbody that i called "rb" and did rb.velocity = move*speed.
+
 the sources i used for this project are: 
 
 for 3D movment as well as rotaion i used this video https://www.youtube.com/watch?v=xF19LIYfUmY&t=713s 
