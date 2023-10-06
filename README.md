@@ -4,7 +4,7 @@ Games name: UmbraKart
 
 when starting up the program the secene your suppose to start at is "Mainmenu"
 
-One of the biggest problems i had was that the car go throw the walls if they were to fast, but with the help of the mentor i found out the problem was that visual studio had its own colloin detector as well as unity so what i did was made a Rigitbody that i called "rb" and did rb.velocity = move*speed. witch fixst it by velocity of the rigitbody the represents the change of the rigitbodys position. While move being the vector 3 and "speed" a public float. 
+One of the biggest problems i had was that the car go throw the walls if they were to fast, but with the help of the mentor i found out the problem was that visual studio had its own colloin detector as well as unity so what i did was made a Rigitbody that i called "rb" and did rb.velocity = move*speed. witch fixst it by velocity of the rigitbody the represents the change of the rigitbodys position. While move being the vector 3 and "speed" a public float. A way to use math in programing is with the vector 3 i used for the movemnt of the player.
 
 the sources i used for this project are: 
 
